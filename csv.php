@@ -191,6 +191,7 @@ if(mysqli_num_rows($result) > 0){
          if($result->num_rows > 0){
 
             while ($row = $result->fetch_assoc()) {
+                
                 echo "<tr>
                     <td>" . $row['studentID'] . "</td>
                     <td>" . $row['sectionNum'] . "</td>
